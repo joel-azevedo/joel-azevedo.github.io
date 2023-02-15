@@ -1,13 +1,28 @@
 body {
     background-color: rgb(111, 228, 164);
+    padding: 3%;
   }
 
-  .meuNome, .descricao {
+  .meuNome {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .descricao {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+    right: -30px;
   }
 
   em {
     color: rgb(67, 138, 83);
+  }
+
+  .resido {
+    position: relative;
+    top: 20px;
+    right: -30px;
   }
 
   .javascript {
@@ -28,4 +43,19 @@ body {
 
   .metoAgil {
     font-size: 12px;
+  }
+
+  #foto {
+    float: left;
+    height: 280px;
+    padding: 10px;
+    background-color: blueviolet;
+  }
+
+  .image-container {
+    height: 300px;
+  }
+
+  ul li:nth-child(odd) {
+    background-color: aqua;
   }
